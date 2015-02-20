@@ -1,5 +1,12 @@
 {
   "name": "reacto",
-  "version": "0.1.1",
-  "author": "Jan Kuča <jan@jankuca.com> (http://jankuca.com)"
+  "version": "1.0.0",
+
+  "main": "index.js",
+
+  "author": "Jan Kuča <jan@jankuca.com> (http://jankuca.com)",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jankuca/reacto.git"
+  }
 }
