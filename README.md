@@ -55,7 +55,7 @@ Dependency injection is a huge problem in the Flux/React world as pretty much th
 
 Reacto, by bringing back constructors of components, makes DI a breeze; you simply pass services to the constructor and the instance does not need to access the global scope to get data and trigger actions.
 
-```
+```javascript
 var AuthView = function (authStore, authActions, props) {
   reacto.Component.call(this, props);
 
