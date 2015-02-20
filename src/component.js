@@ -33,8 +33,10 @@ var Component = function (config) {
   this._owner = reactCurrentOwner.current;
   this._context = reactContext.current;
 
-  this.type = this.constructor;
   this.props = props;
+
+  var self = this;
+  this.type = function (props) { return self; };
 };
 
 
