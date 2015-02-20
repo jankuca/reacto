@@ -44,4 +44,7 @@ var BaseComponent = react.createClass(baseSpec).type;
 Component.prototype = BaseComponent.prototype;
 
 
+Component.prototype._isReactElement = true;
+
+
 module.exports = Component;
