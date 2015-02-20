@@ -49,4 +49,9 @@ Component.prototype = BaseComponent.prototype;
 Component.prototype._isReactElement = true;
 
 
+Component.prototype.getInitialState = function () {
+  return {};
+};
+
+
 module.exports = Component;
