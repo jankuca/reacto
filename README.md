@@ -23,7 +23,7 @@ var authView = AuthView({ username: 'Jan' });
 react.render(authView, domNode);
 ```
 
-Reacto provides a notation known to and understanded by everyone.
+Reacto provides a notation known to and understood by everyone.
 
 ```javascript
 var AuthView = function (props) {
