@@ -76,7 +76,7 @@ AuthView.prototype._handleChange = function () {
 
 AuthView.prototype.render = function () {
   if (!this.state.username) {
-    react.DOM.div(null, [
+    return react.DOM.div(null, [
       react.DOM.span(null, 'Not signed in'),
       react.DOM.button({ onClick: this._authActions.authenticate }, 'Sign in!')
     ]);
